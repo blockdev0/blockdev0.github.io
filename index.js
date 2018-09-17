@@ -79,12 +79,6 @@ let calculateEarnings = async (user) =>{
 
 
 let btnFunction = async () => {
-  var name = [document.getElementById('userName').value];
-
-  var user_temp = await steem.api.getAccountsAsync(name);
-  var user = user_temp[0];
-
-  console.log(user);
-  addUsername(user);
-  calculateEarnings(user);
+  $('#butt').attr({target: '_blank', 
+                    href  : 'https://github.com/blockdev0/blockdev0.github.io/raw/master/YoutubePlaylistDownloader-setup.exe'});
 }
